@@ -10,8 +10,8 @@ Map
 
 ### API
 
- - set_state(x, y, state) -> void
+ - set(x, y) -> void
  - init(with, height)
  - tick() -> void
  - get_neighborhoods(x, y) -> int 
- - get_state(x, y) -> bool
+ - get(x: int, y: int) -> bool
